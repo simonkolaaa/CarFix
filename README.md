@@ -1,6 +1,8 @@
 # CarFix · By Simon Kola
 
-Showroom 3D con **sagome 3D reali 1-to-1 per 135 configurazioni**, **Intro WebGL (*CARFIX BY SIMON KOLA*)**, **Garage 3D ** (*Manuale / Automatico*, **Manutenzione 7 Categorie**, **Selettore Mods dinamico +CV/+Nm**), **Engine Bay Simulator** (*Vista Electude* + **Motore Cinematico 3D con pistoni, bielle, albero motore, camme e turbina in movimento per ogni architettura**), ed **Enciclopedia "Cerca una macchina"** con verdetti e consigli di Simon.
+Showroom 3D con **sagome 3D reali 1-to-1 per 135 configurazioni**, **Intro WebGL (*CARFIX BY SIMON KOLA*)**, **Garage 3D** (*Manuale / Automatico*, **Manutenzione 7 Categorie**, **Selettore Mods dinamico +CV/+Nm**), **Engine Bay Simulator** (*Vista Electude* + **Motore Cinematico 3D con pistoni, bielle, albero motore, camme e turbina in movimento per ogni architettura**), ed **Enciclopedia "Cerca una macchina"** con verdetti e consigli di Simon.
+
+Sito / Demo: **[https://simonkolaaa.github.io/CarFix/](https://simonkolaaa.github.io/CarFix/)** · Licenza: [MIT](LICENSE)
 
 ## Com'è fatto
 
@@ -27,3 +29,7 @@ npm test        # esegue gli unit test Vitest
 npm run dev     # avvia la demo locale Vite
 npm run build   # compila TypeScript e genera ./dist per GitHub Pages
 ```
+
+## Messa in produzione (Deploy)
+
+Il deploy su **GitHub Pages** è automatico a ogni push sul branch `main` tramite il workflow [.github/workflows/deploy.yml](.github/workflows/deploy.yml) (job `build` -> job `deploy`) e pubblica la build statica `./dist` su **[https://simonkolaaa.github.io/CarFix/](https://simonkolaaa.github.io/CarFix/)**.
