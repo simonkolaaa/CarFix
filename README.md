@@ -23,7 +23,7 @@ Richiede **Node.js 22+** e **npm**.
 
 ```bash
 npm install     # installa dipendenze
-npm test        # esegue gli unit test Vitest (copertura 100% catalogo 3D, Wiki, Mod Advisor, 7-cat)
+npm test        # esegue gli unit test Vitest
 npm run dev     # avvia la demo locale Vite
 npm run build   # compila TypeScript e genera ./dist per GitHub Pages
 ```
