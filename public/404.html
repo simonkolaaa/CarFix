@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CarFix — Reindirizzamento</title>
+    <script>
+      (function () {
+        var hash = window.location.hash || '#showroom';
+        var base = window.location.pathname.split('/').slice(0, 2).join('/');
+        window.location.replace(base + '/' + hash);
+      })();
+    </script>
+  </head>
+  <body style="background:#08080b;color:#e4e4e7;font-family:sans-serif;display:grid;place-items:center;min-height:100vh;">
+    <p>CarFix · Ritorno allo Showroom 3D...</p>
+  </body>
+</html>

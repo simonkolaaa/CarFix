@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Env & Editor
+.env
+.env.*
+!.env.example
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
